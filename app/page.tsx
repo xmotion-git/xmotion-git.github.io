@@ -8,7 +8,7 @@ export default function Home() {
       <header className="max-w-5xl mx-auto px-6 py-20 text-center md:text-left md:flex md:items-center md:justify-between">
         <div className="md:w-2/3">
           <h1 className="text-4xl md:text-5xl font-bold text-gray-900 tracking-tight">
-            Hi, I'm <span className="text-blue-600">[Your Name]</span>
+            <span className="text-blue-600">JOSEPH CHRISTIAN PADIN</span>
           </h1>
           <p className="text-xl font-medium text-gray-600 mt-2">
             Technical Virtual Assistant & Operations Specialist
@@ -26,10 +26,11 @@ export default function Home() {
           </div>
         </div>
         <div className="mt-10 md:mt-0 md:w-1/3 flex justify-center">
-          {/* Placeholder for your professional headshot */}
-          <div className="w-48 h-48 rounded-full bg-blue-100 border-4 border-white shadow-lg flex items-center justify-center text-blue-500 font-bold text-xl">
-            [ Your Photo ]
-          </div>
+          <img
+            src="/Me.png"
+            alt="Joseph Christian Padin"
+            className="w-48 h-48 rounded-full object-cover border-4 border-white shadow-lg"
+          />
         </div>
       </header>
 
@@ -120,7 +121,7 @@ export default function Home() {
             </a>
           </div>
           <p className="mt-12 text-xs text-gray-500">
-            © {new Date().getFullYear()} [Your Name]. All rights reserved. Hosted on GitHub Pages.
+            © {new Date().getFullYear()} Joseph Christian Padin. All rights reserved. Hosted on GitHub Pages.
           </p>
         </div>
       </footer>
